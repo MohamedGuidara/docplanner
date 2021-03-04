@@ -1,0 +1,408 @@
+nav{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;  
+    width:100vw; 
+}
+.menuitem{
+   list-style: none;
+   line-height: 30px;
+   font: 400 15px Roboto, Arial, sans-serif;
+   margin-right: 20px;
+   color:gray;
+   cursor: pointer;
+}
+.menuitem:hover {
+    color: rgb(0, 179, 155);
+}
+#logo{
+    width:250px;
+    height: 70px;
+}
+.item{
+    display: flex; 
+}
+.menudropitem{
+    list-style: none;
+    color: rgb(116, 116, 116);
+}
+.menudropitem:hover {
+    color: rgb(0, 179, 155);
+    background-color: rgb(250, 246, 246);
+}
+.menuitem:hover .menudrop{
+    display: block;
+    background-color: white;
+    width:200px;
+    height:220px;
+    margin-left: -80px;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px #ddd;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.menudrop{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+.menudropitem{
+    margin-left: 20px;
+}
+.title{
+    text-align: center;
+    padding-top: 100px;
+}
+.title h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px ;
+    color:rgb(0, 179, 155);
+}
+.info{
+    display:flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.info p {
+    width:450px;
+    font: 400 16px Roboto, Arial, sans-serif;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+}
+.colon{
+    display: flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 85px;
+    
+}
+.colon p {
+    width:250px;
+    font: 300 24px "Work Sans", Arial, sans-serif;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255)
+}
+.colon h1{
+    font: 400 24px "Work Sans", Arial, sans-serif;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255)
+}
+.premier{
+    background-color: rgb(0,204,177);
+    width:300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.premier p , .premier h1{
+    text-align: center;
+    margin-left: 25px;
+}
+.deux{
+    background-color:rgb(61,131,223);
+    width:300px;
+    height: 300px;
+    border-radius: 5%; 
+}
+.deux p , .deux h1 {
+    text-align:center ;
+    margin-left: 25px;
+}
+.troi{
+    background-color: rgb(27,39,52);
+    width:300px;
+    height: 300px;
+    border-radius: 5%; 
+}
+.troi p ,.troi h1 {
+    text-align: center;
+    margin-left: 25px;
+}
+.quatre p{
+    font: 300 26px "Work Sans", Arial, sans-serif;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+    width:200px;
+    padding-top: 35px;
+    padding-left: 150px;
+}
+.quatre{
+    display: flex;
+    
+}
+.pliste{
+    justify-content: space-around;
+    display: flex;
+    width:600px;
+}
+.dliste{
+    justify-content: space-around;
+    display: flex;
+    width:600px;
+}
+.a{
+    padding-left: 180px;    
+    padding-top: 60px;
+    line-height: 10px;    
+}
+.pliste h2 , .dliste h2{
+    font: 400 16px Roboto, Arial, sans-serif;
+    color: rgb(196,196,196);
+}
+.cinq{
+    display: flex;
+    background-color: rgb(224,249,247);
+    width:100vw;
+    height:600px;
+}
+.ccc{
+    margin-left: 130px;
+    display: flex;
+}
+.cinqa{
+    width:400px;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+.cinqb{
+    width:250px;
+    margin-top: 50px;
+}
+.cinqc{
+    width:250px;
+    margin-top: 25px;
+    margin-left: -25px;
+}
+.cinqa h1{
+    font: 300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+}
+.cinqa p{
+    font: 400 14px "Work Sans", Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(116, 116, 116)   ;
+    
+}
+.bun{
+    background-color: rgb(255,255,255);
+    width:200px;
+    height: 250px;
+    border-radius: 2%;
+}
+.bdeux{
+    background-color: rgb(255,255,255);
+    width:200px;
+    height: 250px;
+    border-radius: 2%;
+    margin-top: 25px;
+}
+.cun{
+    background-color: rgb(255,255,255);
+    width:200px;
+    height: 250px;
+    border-radius: 2%;
+}
+.cdeux{
+    background-color: rgb(255,255,255);
+    width:200px;
+    height: 250px;
+    border-radius: 2%;
+    margin-top: 25px;   
+}
+.ccc p , .ccc h2  {
+    text-align: center;
+}
+.ccc img{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.ccc h2{
+    font: 300 24px "Work Sans", Arial, sans-serif;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+}
+.ccc p {
+    font: 400 13px Roboto, Arial, sans-serif;
+    line-height: 16.9px;
+    color: rgb(116, 116, 116);
+}
+.six p , .six h1 {
+    text-align: center;
+    width:470px;
+    margin-left:auto;
+    margin-right: auto;    
+}
+.six h1 {
+    font: 300 30px "Work Sans", Arial, sans-serif;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+}
+.six p {
+    font: 400 14px Roboto, Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+}
+.six {
+    margin-top: 90px;
+}
+.buttonun {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.huitphotoun {
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+button {
+    background-color: rgb(61,131,223);
+    border-radius: 7%;
+    font: 700 10px Roboto, Arial, sans-serif;
+    line-height: 10px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0px 0px 4px rgb(201, 79, 79);
+}
+.huitphotoun:hover {
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huitphotodeux{
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+.huitphotodeux:hover {
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huitphototrois {
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+.huitphototrois:hover {
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huitun {
+    display: flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.huitdeuxphotoun {
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+.huitdeuxphotoun :hover {
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huitdeuxphotodeux {
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+.huitdeuxphotodeux:hover{
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huitdeuxphototrois {
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+.huitdeuxphototrois:hover{
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huitdeux {
+    display: flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.huittroisphototrois {
+    background-color: rgb(255,255,255);
+    width:311px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    cursor: pointer;
+}
+.huittroisphototrois:hover{
+    box-shadow: 0px 0px 15px #ddd;
+}
+.huittrois{
+    margin-left: 178px;
+    margin-top: 20px;   
+}
+.huit {
+    display: block;
+}
+.neuf {
+    width:450px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.neuf p {
+    font: 300 30px "Work Sans", Arial, sans-serif ;
+    line-height: 39px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+.buttonneuf {   
+    width:180px;
+    margin-left:auto;
+    margin-right: auto;    
+}
+.buttonneufun button{
+    background-color: rgb(61,131,223);
+    border-radius: 7%;
+    font: 700 12px Roboto, Arial, sans-serif;
+    line-height: 12px;
+    color: rgb(255, 255, 255);
+}
+.neuf button {
+    height: 40px;
+    width:220px;
+}
+.dix p {
+    font: 400 12px Roboto, Arial, sans-serif;
+    line-height: 15.6 px;
+    color: rgb(171, 171, 171);
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+.dix {
+    margin-top: 60px;
+    border-top: 0.5px solid rgb(171, 171, 171);;
+    margin-bottom: 0%;
+    padding-top: 30px;
+}
+body {
+    margin: 0;
+}
